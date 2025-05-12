@@ -1,28 +1,21 @@
 {
-  "name": "brittanychiang.com",
-  "version": "0.0.0",
-  "description": "Design-minded front-end software engineer focused on building beautiful interfaces and experiences",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/bchiang7/bchiang7.github.io"
-  },
-  "homepage": "https://github.com/bchiang7/bchiang7.github.io",
-  "main": "gulpfile.js",
+  "name": "bootstrap-v5",
+  "version": "1.0.0",
+  "description": "```bash $ npm -v                                                           8.3.1 ```",
+  "main": "index.js",
   "scripts": {
-    "start": "gulp serve --watch",
-    "build": "gulp build"
+    "compile:sass": "sass --watch scss:assets/css"
   },
-  "author": "Brittany Chiang",
+  "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@nuscout/eslint-config": "^0.2.1",
-    "browser-sync": "^2.26.7",
-    "gulp": "^4.0.0",
-    "gulp-autoprefixer": "^7.0.0",
-    "gulp-clean-css": "^4.3.0",
-    "gulp-eslint": "^6.0.0",
-    "gulp-imagemin": "6.0.0",
-    "gulp-sass": "^4.1.0",
-    "gulp-uglify": "3.0.2"
+    "saas": "^1.0.0",
+    "sass": "^1.54.0"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.1.2",
+    "autoprefixer": "^10.4.8",
+    "bootstrap": "^5.2.0",
+    "postcss-cli": "^10.0.0"
   }
 }
