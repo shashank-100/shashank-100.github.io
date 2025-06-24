@@ -1,16 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
-  images: {
-    remotePatterns: [
-      {
-        protocol: 'https',
-        hostname: 'www.ishaand.com',
-        pathname: '/_next/**',
-      },
-    ],
-  },
+  output: "export",
+  images: { unoptimized: true },
 };
 
 export default nextConfig;

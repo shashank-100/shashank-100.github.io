@@ -177,3 +177,13 @@ export default async function ProjectPage({ params }: { params: Promise<{ slug: 
     </main>
   )
 }
+
+// Add this function for static export
+export function generateStaticParams() {
+  return [
+    { slug: 'belzin' },
+    { slug: 'liquotic' },
+    { slug: 'openvest' },
+    { slug: 'solwatch' },
+  ];
+}
